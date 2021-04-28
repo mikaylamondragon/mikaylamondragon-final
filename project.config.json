@@ -9,6 +9,16 @@
       "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
       "type": "sheet",
       "name": "bookstores"
+    },
+    {
+      "fileId": "1pRYK8GP6hwQu7MfBXi9NH1BUxSFcHWpQGQ5Rk8Aq99E",
+      "type": "sheet",
+      "name": "landmarks"
+    },
+    {
+      "fileId": "16F3xgyO_Swtq_ofc5FH6PkoJ9Andb0AYg-Soi_XVHE4",
+      "type": "doc",
+      "name": "restaurants"
     }
   ],
   "to_bake": [

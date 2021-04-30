@@ -8,23 +8,33 @@
 <div class="container">
   <h1>Howdy, Partner!</h1>
   <p>Description of the website goe here. NEED TO WRITE THIS LATER!!!!!!!!</p>
-  <h2>Library books loop</h2>
-  <p>This loops through data that came from a Google Docs example.</p>
-  <div class="row">
-    {% for book in library.books %}
-      <div class="col">
-        <img src="img/{{ book.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ book.slug }}.html">{{ book.title }}</a></h3>
+    <div class = "row-lg-12">
+      <h2> <a href= "#">Landmarks</a></h2>
+      <div class = "col-sm-4">
+        <img src = "../img/landmarks/lady-bird-lake.jpg" alt= "Lake" class = "img-fluid">
+        <img src = "../img/landmarks/mount-bonnell.jpg" alt = "Texas State capitol" class = "img-fluid">
+        <img src = "../img/landmarks/univ-of-tx.jpg" alt = "University of Texas" class = "img-fluid">
       </div>
-    {% endfor %}
+    </div>
+  <div class = "row-lg-12">
+    <h2><a href= "#"> Restaurants</a></h2>
   </div>
-  <h2>Bookstores loop</h2>
-  <p>This loops through data that came from a Google Sheet example.</p>
-  <hr>
-  {% for store in bookstores.stores %}
-    <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
-    <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
-    <hr>
-  {% endfor %}
-</div>
+  <div class = "col-lg-4">
+    <img src = "../img/restaurants/peached-tortilla.jpg" alt= "tacos" class = "img-fluid">
+  </div>
+  <div class = "col-lg-4">
+    <img src = "../img/restaurants/valentinas.jpg" alt = "barbeque" class = "img-fluid">
+  </div>
+  <div class = "col-lg-4">
+    <img src = "../img/restaurants/patrizis.jpg" class = "img-fluid">
+  </div>
+    <!--
+    <div class = "row-lg-12">
+    <h2><a href = "#"</a> Activities</h2>
+      <div class = "col-lg-4">
+        <img src = "../img/restaurants/peached-tortilla.jpg" alt= "tacos" class = "img-fluid">
+        <img src = "../img/restaurants/valentinas.jpg" alt = "barbeque" class = "img-fluid">
+        <img src = "../img/restaurants/patrizis.jpg" class = "img-fluid">
+      </div>
+    -->
 {% endblock %}

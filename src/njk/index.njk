@@ -16,7 +16,7 @@
             <!-- for loop first part is file, second is array -->
             {% for landmark in landmarks.landmarks %}
             <div class="carousel-item {% if loop.first %}active{% endif %}">
-              <a href = "landmark/{{landmark.slug}}.html">{{landmark.name}}
+              <a href = "landmark/{{landmark.slug}}.html">
                 <img src="img/landmarks/{{landmark.image}}" class="d-block w-100" alt="...">
               </a>
             </div>
@@ -41,13 +41,4 @@
     </div>
   </div>
 </div>
-    <!--
-    <div class = "row-lg-12">
-    <h2><a href = "#"</a> Activities</h2>
-      <div class = "col-lg-4">
-        <img src = "../img/restaurants/peached-tortilla.jpg" alt= "tacos" class = "img-fluid">
-        <img src = "../img/restaurants/valentinas.jpg" alt = "barbeque" class = "img-fluid">
-        <img src = "../img/restaurants/patrizis.jpg" class = "img-fluid">
-      </div>
-    -->
 {% endblock %}

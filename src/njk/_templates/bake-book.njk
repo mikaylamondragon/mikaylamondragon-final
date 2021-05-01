@@ -4,7 +4,7 @@
 
 {% block page_title %}{{ title }}{% endblock %}
 
-{% block page_description %}stuff{% endblock %}
+{% block page_description %}{{ title }} by {{ author }}{% endblock %}
 
 {% block content %}
   <article class="container">
@@ -13,7 +13,7 @@
           <img src="../img/{{ slug }}.jpg" alt="" class="img-fluid mb-4">
       </div>
       <div class="col-sm-8">
-          <h1>{{ name }}</h1>
+          <h1>{{ title }}</h1>
           <p>{{ blurb | safe }}</p>
       </div>
     </div>

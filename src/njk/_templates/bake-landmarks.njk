@@ -4,19 +4,19 @@
 
 {% block page_title %}{{ headline }}{% endblock %}
 
-{% block page_description %}{{ headline }} Some Text Here{% endblock %}
+{% block page_description %}{{ headline }} some text {% endblock %}
 
 {% block content %}
   <article class="container">
     <div class="row">
       <div class="col-sm-4">
-        <img src="../img/peached-tortilla.jpg" alt="tacos" class="img-fluid">
-        <p class="byline">By Crit McGillicutty<br>
+        <img src="../img/landmarks/lady-bird-lake.jpg" alt="lady bird lake" class="img-fluid">
+        <p class="byline">Byline<br>
         <span>Island Breeze Tribune</span></p>
         <hr class="d-sm-none">
       </div>
       <div class="col-sm-8">
-        <img src="../img/{{ image }}" alt="kraken" class="img-fluid mb-4">
+        <img src="#" alt="image" class="img-fluid mb-4">
         <h1>{{ headline }}</h1>
         {{ prose(post) }}
       </div>

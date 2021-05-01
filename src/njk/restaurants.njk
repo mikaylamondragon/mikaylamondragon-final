@@ -1,0 +1,23 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Ships{% endblock %}
+
+{% block page_description %}History of Pirate Ships.{% endblock %}
+
+{% block content %}
+  <article class="container">
+    <div class="row">
+        {% for restaurant in restaurants.restaurants %}
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/restaurants/{{restaurant.image}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{restaurant.name}}.</h5>
+              <p>{{restaurant.category}} </p>
+              <p>{{restaurant.address}} </p>
+            </div>
+          </div>
+        {% endfor %}
+      </ul>
+    </div>
+  </article>
+{% endblock %}

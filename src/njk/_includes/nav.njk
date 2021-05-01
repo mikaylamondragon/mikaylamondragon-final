@@ -10,7 +10,7 @@
         </a>
         <ul class = "dropdown-menu dropdown-menu-dark" aria-labelledby = "navbarDarkDropdownMenuLink">
           {%for landmark in landmarks.landmarks%}
-          <li><a class = "dropdown-item" href = "landmarks/{{landmark.slug}}.html">Action</a></li>
+          <li><a class = "dropdown-item" href = "{{relative_path}}landmarks/{{landmark.slug}}.html">{{landmark.name}}</a></li>
           {% endfor %}
         </ul>
       <li class="nav-item">

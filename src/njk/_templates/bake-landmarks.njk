@@ -10,11 +10,16 @@
   <article class="container">
     <div class="row">
       <div class="col-sm-4">
-          <img src="../img/{{ slug }}.jpg" alt="" class="img-fluid mb-4">
+          <img src="../img/landmarks/{{ image }}" alt="" class="img-fluid">
+          <p> {{location}}</p>
+          <p>{{established}} </p>
       </div>
       <div class="col-sm-8">
-          <h1>{{ name }}</h1>
-          <p>{{ blurb | safe }}</p>
+          <h1> {{ name }}</h1>
+          <p>{{ description | safe }}</p>
+          <h2> Activities </h2>
+          <p> {{activities}}</p>
+          <a href={{url}}> {{url}}</a>
       </div>
     </div>
   </article>

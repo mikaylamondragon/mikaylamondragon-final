@@ -5,13 +5,13 @@
 {% block page_description %}History of Pirate Ships.{% endblock %}
 
 {% block content %}
-  <article class="container">
+  <article class="container margin-style">
     <div class="row">
         {% for restaurant in restaurants.restaurants %}
-          <div class="card" style="width: 18rem;">
+          <div class="card bg-secondary mb-4 card-style">
             <img class="card-img-top" src="img/restaurants/{{restaurant.image}}" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">{{restaurant.name}}.</h5>
+              <h5 class="card-title" style = "color: navy">{{restaurant.name}}</h5>
               <p>{{restaurant.category}} </p>
               <p>{{restaurant.address}} </p>
             </div>

@@ -5,6 +5,13 @@
 // $body-color: white;
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
+$body-bg:#ededed;
+
+$theme-colors: (
+  "primary": navy,
+  "secondary": white
+);
+
 
 /* bootstrap */
 // Option A: Include all of Bootstrap
@@ -22,7 +29,10 @@
 @import "nav";
 @import "jumbotron";
 @import "newsletter";
+@import "card-style";
 
 h3 {
   font-size: 1.5rem;
 }
+
+

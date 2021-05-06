@@ -1,8 +1,8 @@
 {% extends '_templates/base.njk' %}
 
-{% block page_title %}Ships{% endblock %}
+{% block page_title %}Visit Austin, TX | Restaurants{% endblock %}
 
-{% block page_description %}History of Pirate Ships.{% endblock %}
+{% block page_description %}Restaurants in Austin, TX.{% endblock %}
 
 {% block content %}
   <article class="container margin-style">
@@ -12,8 +12,8 @@
             <img class="card-img-top" src="img/restaurants/{{restaurant.image}}" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">{{restaurant.name}}</h5>
-              <p>{{restaurant.category}} </p>
-              <p>{{restaurant.address}} </p>
+              <p class = "category">{{restaurant.category}} </p>
+              <p><a href = {{restaurant.url}} target="_blank">{{restaurant.address}} </a></p>
             </div>
           </div>
         {% endfor %}

@@ -17,15 +17,15 @@
       "address": "2300 E Cesar Chavez St, Austin, TX 78702",
       "category": "Tex-Mex",
       "image": "juan-in-a-million.jpg"
-    },
+    }
+  ],
+  "restaurants2": [
     {
       "name": "Launderette",
       "address": "2115 Holly St, Austin, TX 78702",
       "category": "American",
       "image": "launderette.jpg"
-    }
-  ],
-  "restaurants2": [
+    },
     {
       "name": "Oseyo",
       "address": "1628 E Cesar Chavez St, Austin, TX 78702",

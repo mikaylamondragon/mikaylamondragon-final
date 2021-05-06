@@ -3,72 +3,84 @@
     {
       "name": "Franklin Barbecue",
       "address": "900 E 11th St, Austin, TX 78702",
+      "url": "https://www.google.com/maps/dir/30.2867678,-97.7525361/900+E+11th+St,+Austin,+TX+78702/@30.2792036,-97.7594527,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x8644b5a4ae281265:0x2c788d6e10ac6031!2m2!1d-97.7312949!2d30.2701348",
       "category": "Barbecue",
       "image": "franklin-bbq.jpg"
     },
     {
       "name": "Home Slice Pizza",
       "address": "1415 S Congress Ave, Austin, TX 78704",
+      "url": "https://www.google.com/maps/dir//1415+S+Congress+Ave,+Austin,+TX+78704/@30.2492157,-97.7516892,17z/data=!4m17!1m7!3m6!1s0x8644b4fc51335de7:0x998c2b597a5f7d67!2s1415+S+Congress+Ave,+Austin,+TX+78704!3b1!8m2!3d30.2492157!4d-97.7495005!4m8!1m0!1m5!1m1!1s0x8644b4fc51335de7:0x998c2b597a5f7d67!2m2!1d-97.7495005!2d30.2492157!3e3",
       "category": "Pizza",
       "image": "homeslice-pizza.jpg"
     },
     {
       "name": "Juan in a Million",
       "address": "2300 E Cesar Chavez St, Austin, TX 78702",
+      "url": "https://www.google.com/maps/dir//2300+E+Cesar+Chavez+St,+Austin,+TX+78702/@30.2553542,-97.7540953,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8644b5cabb9e3afd:0x954a8af043b6bb47!2m2!1d-97.7190757!2d30.2553589!3e3",
       "category": "Tex-Mex",
       "image": "juan-in-a-million.jpg"
     },
     {
       "name": "Launderette",
       "address": "2115 Holly St, Austin, TX 78702",
+      "url": "https://www.google.com/maps/dir//2115+Holly+St,+Austin,+TX+78702/@30.2518665,-97.7577863,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8644b44b02910451:0x56da5d96e09ef754!2m2!1d-97.7227667!2d30.2518712!3e3",
       "category": "American",
       "image": "launderette.jpg"
     },
     {
       "name": "Oseyo",
       "address": "1628 E Cesar Chavez St, Austin, TX 78702",
+      "url": "https://www.google.com/maps/dir//1628+E+Cesar+Chavez+St,+Austin,+TX+78702/@30.2583472,-97.7625806,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8644b5b3c8fd449f:0x53b9ea72102add60!2m2!1d-97.727561!2d30.2583519!3e3",
       "category": "Korean",
       "image": "oseyo.jpg"
     },
     {
       "name": "Valentina's Tex Mex BBQ",
       "address": "11500 Menchaca Rd, Austin, TX 78748",
+      "url": "https://www.google.com/maps/dir//Valentina's+Tex+Mex+BBQ,+11500+Manchaca+Rd,+Austin,+TX+78748/@30.153028,-97.8688137,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8644b50c20337d41:0x8ff870c7261d811e!2m2!1d-97.8337863!2d30.1529238!3e3",
       "category": "Tacos",
       "image": "valentinas.jpg"
     },
     {
       "name": "The Peached Tortilla",
       "address": "5520 Burnet Rd #100, Austin, TX 78756",
+      "url": "https://www.google.com/maps/dir//5520+Burnet+Rd+%23100,+Austin,+TX+78756/@30.330811,-97.7752567,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8644ca585e0b7e25:0x8f869c02396acdd7!2m2!1d-97.7402371!2d30.3308157!3e3",
       "category": "Asian fusion",
       "image": "peached-tortilla.jpg"
     },
     {
       "name": "Patrizi's",
       "address": "2307 Manor Rd, Austin, TX 78722",
+      "url": "https://www.google.com/maps/dir//2307+Manor+Rd,+Austin,+TX+78722/@30.2838005,-97.7524832,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8644b5ec8628c05b:0x997f6731014e688a!2m2!1d-97.7174636!2d30.2838052!3e3",
       "category": "Italian",
       "image": "patrizis.jpg"
     },
     {
       "name": "Bufalina",
       "address": "1519 E Cesar Chavez St #200, Austin, TX 78702",
+      "url": "https://www.google.com/maps/dir//1519+E+Cesar+Chavez+St+%23200,+Austin,+TX+78702/@30.2583893,-97.7638866,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8644b5b2398da6a3:0x4415be748680349f!2m2!1d-97.728867!2d30.258394!3e3",
       "category": "Pizza",
       "image": "bufalina.jpg"
     },
     {
       "name": "Via313",
       "address": "61 Rainey St, Austin, TX 78701",
+      "url": "https://www.google.com/maps/dir//61+Rainey+St,+Austin,+TX+78701/@30.257904,-97.7738678,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8644b5abcc8d6245:0x9083e81864d0c1ab!2m2!1d-97.7388482!2d30.2579087!3e3",
       "category": "Pizza",
       "image": "via313.jpg"
     },
     {
       "name": "Uchi",
       "address": "801 S Lamar Blvd, Austin, TX 78704",
+      "url": "https://www.google.com/maps/dir//801+S+Lamar+Blvd,+Austin,+TX+78704/@30.2575157,-97.794792,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8644b51eccf54071:0x28bab267e4a2b17f!2m2!1d-97.7597724!2d30.2575204!3e3",
       "category": "Japanese",
       "image": "uchi.jpg"
     },
     {
       "name": "888 Pan Asian Restaurant",
       "address": "2400 E Oltorf St #1A, Austin, TX 78741",
+      "url": "https://www.google.com/maps/dir//2400+East+Oltorf+Street,+Austin,+TX/@30.2294166,-97.7643415,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8644b4684134114d:0xbec4d6ceda07dcf3!2m2!1d-97.7293219!2d30.2294213!3e3",
       "category": "Pan-Asian",
       "image": "888.jpg"
     }

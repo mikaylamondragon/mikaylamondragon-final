@@ -4,23 +4,23 @@
 
 {% block page_title %}{{ title }}{% endblock %}
 
-{% block page_description %}stuff{% endblock %}
+{% block page_description %}Landmarks in Austin, TX{% endblock %}
 
 {% block content %}
   <article class="container">
     <div class="row">
-      <div class="col-sm-5">
+      <div class="col-lg-5 col-md-12">
           <img src="../img/landmarks/{{ image }}" alt="" class="img-fluid">
-          <p> {{location}}</p>
+          <p><a href={{map}} target = target="_blank"> {{location}}</a></p>
           <p>{{established}} </p>
       </div>
-      <div class="col-sm-7">
-          <h1> {{ name }}</h1>
+      <div class="col-lg-7 col-md-12">
+          <h1 class = "landmarks"> {{ name }}</h1>
           <p>{{ description | safe }}</p>
-          <h2> Activities </h2>
+          <h2 class = "activities"><a href={{url}}> Activities </a></h2>
           <p> {{activities}}</p>
-          <a href={{url}}> {{url}}</a>
       </div>
     </div>
+
   </article>
 {% endblock %}

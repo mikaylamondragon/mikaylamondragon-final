@@ -9,9 +9,12 @@ $body-bg: #D0DDEC;
 
 $theme-colors: (
   "primary": #D6046E,
-  "secondary": #002F7D,
-  "tirtiary": #0088C5,
 );
+
+$primary: #D6046E;
+$secondary:#002F7D;
+$tirtiary: #0088C5;
+$fourth: #7052F4;
 
 
 /* bootstrap */
@@ -29,8 +32,9 @@ $theme-colors: (
 // Import partials
 @import "nav";
 @import "jumbotron";
-@import "newsletter";
-@import "card-style";
+@import "restaurants";
+@import "landmarks";
+@import "index";
 
 h3 {
   font-size: 1.5rem;

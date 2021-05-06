@@ -6,8 +6,22 @@
   width: 20rem;
 }
 
-
-
 .article{
   align-items: center;
 }
+
+.carousel-item-prev,
+.carousel-item-next,
+.carousel-item.active {
+    display:flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 225px;
+    overflow:hidden;
+}
+
+
+

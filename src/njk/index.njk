@@ -10,41 +10,33 @@
   <p>Description of the website goe here. NEED TO WRITE THIS LATER!!!!!!!!</p>
   <div class = "row">
     <div class="col-sm-12 col-lg-6">
-      <h2> Landmarks</h2>
-        <div id = "carouselExampleControls" class=" carousel slide" data-ride="carousel" style="width: 32rem;">
-          <div class="carousel-inner">
-            <!-- for loop first part is file, second is array -->
-            {% for landmark in landmarks.landmarks %}
-            <div class="carousel-item {% if loop.first %}active{% endif %}">
-              <a href = "landmarks/{{landmark.slug}}.html">
-                <img src="img/landmarks/{{landmark.image}}" class="d-block w-100" alt="...">
-              </a>
-            </div>
-            {% endfor %}
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-    </div>
-  </div>
-  <div class="col-lg-6 col-sm-12">
-    <div class="card">
-      <div class="card-header">
-        Restaurants
+      <div class="card">
+        <div class="card-header">
+          Landmarks
+        </div>
+        <img src="../img/landmarks/lady-bird-lake.jpg" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Looking for an adventure? Check out Austin's hottest tourist destinations!</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">I'm always down for an adventure!</a>
+        </div>
       </div>
-      <img src="../img/restaurants/peached-tortilla.jpg" class="card-img-top img-fluid" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Feeling hungry? Check out these Instagram worthy places to eat!</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    <div class="col-sm-12 col-lg-6">
+      <div class="card">
+        <div class="card-header">
+          Restaurants
+        </div>
+        <img src="../img/restaurants/peached-tortilla.jpg" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Feeling hungry? Check out these Instagram worthy places to eat!</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Sheeesh</a>
+        </div>
       </div>
     </div>
   </div>
+
 </div>
 {% endblock %}
 

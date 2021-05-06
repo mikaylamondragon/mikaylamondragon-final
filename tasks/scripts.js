@@ -17,3 +17,4 @@ module.exports = () => {
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./docs/js'))
 };
+

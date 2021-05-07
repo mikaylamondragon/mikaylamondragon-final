@@ -1,4 +1,17 @@
 .index{
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: "Trocchi", Helvitca;
+}
+
+h1, h2, h3, h4, h5, p{
+  font-family: "Trocchi", Helvitca;
+}
+
+.card-header{
+  color:$secondary;
+}
+
+h2{
+  color:$primary;
 }
